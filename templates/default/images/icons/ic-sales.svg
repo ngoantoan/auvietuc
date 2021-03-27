@@ -1,0 +1,31 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196.96 194.99">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+                stroke: #f96232;
+                stroke-linecap: round;
+                stroke-miterlimit: 10;
+                stroke-width: 7.58px;
+            }
+
+            .cls-2 {
+                fill: #f96232;
+            }
+        </style>
+    </defs>
+    <title>ic-sales</title>
+    <polygon class="cls-1" points="62.91 154.13 68.77 57.42 159.76 57.42 164.77 154.13 62.91 154.13" />
+    <path class="cls-1" d="M784.53,789.87c0,18.68,13.11,33.83,29.29,33.83h0c16.18,0,29.29-15.15,29.29-33.83" transform="translate(-699.46 -717.01)"
+    />
+    <path class="cls-1" d="M755.53,773a36.52,36.52,0,0,0,8.58,23.92" transform="translate(-699.46 -717.01)" />
+    <polyline class="cls-1" points="63.88 138.13 34.13 138.13 39.99 41.42 130.98 41.42 131.81 57.42" />
+    <path class="cls-2" d="M895.44,726.85,885.58,717l-4.6,4.6,4.28,4.26H725.72v6.57H885.26L881,736.71l4.6,4.6,9.86-9.86a3.21,3.21,0,0,0,0-4.6Zm0,0"
+        transform="translate(-699.46 -717.01)" />
+    <rect class="cls-2" y="8.86" width="6.57" height="6.57" />
+    <rect class="cls-2" x="13.13" y="8.86" width="6.57" height="6.57" />
+    <path class="cls-2" d="M714.9,892.3l-4.6-4.58-9.86,9.84a3.21,3.21,0,0,0,0,4.6L710.3,912l4.6-4.6-4.28-4.26H870.17v-6.55H710.62Zm0,0"
+        transform="translate(-699.46 -717.01)" />
+    <rect class="cls-2" x="190.38" y="179.57" width="6.57" height="6.56" />
+    <rect class="cls-2" x="177.26" y="179.57" width="6.57" height="6.56" />
+</svg>

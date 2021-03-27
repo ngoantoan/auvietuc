@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<description>
+		<![CDATA[
+		<div align="left" style="margin-left:20px;">
+		</div>
+		]]>
+	</description>
+    <setting>
+        <key>ADDRESS</key>
+        <type>TEXT</type>
+    </setting>
+
+    <setting>
+        <key>PHONE</key>
+        <type>TEXT</type>
+    </setting>
+
+    <setting>
+        <key>EMAIL</key>
+        <type>EMAIL</type>
+    </setting>
+
+	<setting>
+		<key>LINKIN</key>
+		<type>TEXT</type>
+	</setting>
+	<setting>
+		<key>ZALO</key>
+		<type>TEXT</type>
+	</setting>
+	<setting>
+		<key>YOUTUBE</key>
+		<type>TEXT</type>
+	</setting>
+
+	<setting>
+		<key>FACEBOOK</key>
+		<type>TEXT</type>
+	</setting>
+
+    <setting>
+        <key>MESSENGER</key>
+        <type>TEXT</type>
+    </setting>
+    <setting>
+        <key>SKYPE</key>
+        <type>TEXT</type>
+    </setting>
+</configuration>

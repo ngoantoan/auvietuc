@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<description>
+		<![CDATA[
+		<div align="left" style="margin-left:20px;">
+		<BR /> + LIMIT: number of blog post
+		<BR /> + CATE_PARENT: Danh mục cha của mục menu bên phải
+		</div>
+		]]>
+	</description>
+	<setting>
+		<key>LIMIT</key>
+		<type>TEXT</type>
+	</setting>
+	<setting>
+		<key>TYPE</key>
+		<type>NUMBER</type>
+	</setting>
+    <setting>
+        <key>CATE_PARENT</key>
+        <type>TEXT</type>
+    </setting>
+</configuration>

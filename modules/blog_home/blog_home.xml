@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <description>
+    <![CDATA[
+      <div align="left">
+      Đây là modules blog home top
+
+      </div> 
+    ]]>
+  </description>
+      <setting>
+        <key>EMAIL</key>
+        <type>TEXT</type>
+      </setting>
+      <setting>
+        <key>HOTLINE</key>
+        <type>TEXT</type>
+      </setting>
+</configuration>

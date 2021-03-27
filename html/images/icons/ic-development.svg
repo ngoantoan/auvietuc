@@ -1,0 +1,20 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288.3 213.66">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+                stroke: #ff6600;
+                stroke-miterlimit: 10;
+                stroke-width: 12.64px;
+            }
+        </style>
+    </defs>
+    <title>ic-development</title>
+    <rect class="cls-1" x="67.91" y="6.32" width="152.47" height="51.24" rx="8.45" ry="8.45" />
+    <rect class="cls-1" x="6.32" y="145.75" width="61.6" height="61.6" rx="5.24" ry="5.24" />
+    <rect class="cls-1" x="220.39" y="145.75" width="61.6" height="61.6" rx="5.24" ry="5.24" />
+    <rect class="cls-1" x="113.35" y="145.75" width="61.6" height="61.6" rx="5.24" ry="5.24" />
+    <line class="cls-1" x1="144.15" y1="57.55" x2="144.15" y2="145.75" />
+    <path class="cls-1" d="M487.41,538V505.29a15.85,15.85,0,0,1,15.85-15.85H685.62a15.85,15.85,0,0,1,15.85,15.85v34" transform="translate(-450.29 -388.31)"
+    />
+</svg>

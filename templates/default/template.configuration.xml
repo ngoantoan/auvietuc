@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<default>
+		<defaultSelected>1</defaultSelected>
+		<filename>default.admin.tpl</filename>
+		<demo_image>default.thumbnail.png</demo_image>
+		<positions>
+			<name>HEADER</name>
+			<name>TOP</name>
+			<name>LEFT</name>
+			<name>RIGHT</name>
+			<name>BOTTOM</name>
+			<name>FOOTER</name>
+		</positions>
+	</default>
+</configuration>

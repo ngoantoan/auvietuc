@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <description>
+        <![CDATA[
+			<div align="left">
+			Đây là module hiển thị các hình ảnh, logo, banner Quảng cáo trên website.
+			<br/> + CATEGORY: Hiển thị các hình ảnh Quảng Cáo theo chủ đề chỉ mục cụ thể.
+			<br/> + LIMIT_BANNER: số banner muốn hiển thị.
+			<br/> + TYPE: 1: BANNER SLIDER HOME,
+			<br/> + TYPE: 2: BANNER SLIDER HINH ANH,
+			</div>
+		]]>
+    </description>
+    <setting>
+        <key>TYPE</key>
+        <type>TEXT</type>
+    </setting>
+    <setting>
+        <key>CATEGORY</key>
+        <type>BANNER</type>
+        <data>select * from banner_categories</data>
+    </setting>
+    <setting>
+        <key>LIMIT</key>
+        <type>TEXT</type>
+    </setting>
+    <setting>
+        <key>LIMIT_BANNER</key>
+        <type>TEXT</type>
+    </setting>
+</configuration>

@@ -1,0 +1,24 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.44 118.08">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+                stroke: #f05b28;
+                stroke-linecap: square;
+                stroke-miterlimit: 10;
+                stroke-width: 3.5px;
+            }
+        </style>
+    </defs>
+    <title>ic-service-seo</title>
+    <circle class="cls-1" cx="108.52" cy="30.83" r="7.86" />
+    <path class="cls-1" d="M855.59,571.65,843,559.06l-1.27,1.27-2-2a34.38,34.38,0,1,0-7,7l2,2-1.27,1.27L846,581.24a6.78,6.78,0,0,0,9.59-9.59ZM827.37,553a21.48,21.48,0,1,1,0-30.37,21.49,21.49,0,0,1,0,30.37Z"
+        transform="translate(-739.88 -466.89)" />
+    <line class="cls-1" x1="37.12" y1="16.32" x2="59.31" y2="52.82" />
+    <circle class="cls-1" cx="33.04" cy="9.61" r="7.86" />
+    <line class="cls-1" x1="103.87" y1="37.16" x2="88.04" y2="55.07" />
+    <line class="cls-1" x1="38.31" y1="100.48" x2="56.12" y2="85.94" />
+    <circle class="cls-1" cx="33.04" cy="106.3" r="7.86" />
+    <line class="cls-1" x1="17.47" y1="70.4" x2="50.12" y2="69.98" />
+    <circle class="cls-1" cx="749.49" cy="537.39" r="7.86" transform="translate(-897.18 238.56) rotate(-46.14)" />
+</svg>

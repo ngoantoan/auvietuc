@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227 305.28">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+                stroke: #b3b3b3;
+                stroke-miterlimit: 10;
+                stroke-width: 9px;
+            }
+        </style>
+    </defs>
+    <title>ic-case-detail-1</title>
+    <circle class="cls-1" cx="113.5" cy="113.5" r="109" />
+    <polyline class="cls-1" points="190.76 191.5 190.76 297.57 113.5 254 36.24 297.57 36.24 191.5" />
+    <polyline class="cls-1" points="92.8 142.64 63.66 113.5 92.8 84.36" />
+    <polyline class="cls-1" points="134.2 142.64 163.34 113.5 134.2 84.36" />
+    <line class="cls-1" x1="119.95" y1="74.99" x2="107.09" y2="152.01" />
+</svg>

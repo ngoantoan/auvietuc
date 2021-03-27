@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <description>
+    <![CDATA[
+      <div align="left">
+      Đây là modules header + banner top
+
+      <BR /> BANNER_TOP: BANNER TOP
+ 
+      </div> 
+    ]]>
+  </description>
+  <setting>
+    <key>BANNER_TOP</key>
+    <type>FILE</type>
+  </setting>
+</configuration>

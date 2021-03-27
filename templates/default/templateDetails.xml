@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<templateConfig version="1.0.0">
+	<name>default</name>
+	<creationDate>02/01/2008</creationDate>
+	<author>Nguyen Thanh Cong</author>
+	<copyright>GNU/GPL</copyright>
+    <authorEmail>cong.nguyen@bantayso.com</authorEmail>
+    <authorUrl></authorUrl>
+	<version>1.0</version>
+	<description></description>
+</templateConfig>

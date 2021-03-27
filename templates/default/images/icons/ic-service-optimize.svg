@@ -1,0 +1,23 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.05 48.37">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+                stroke: #ef5c63;
+                stroke-linecap: round;
+                stroke-linejoin: round;
+                stroke-width: 3px;
+            }
+        </style>
+    </defs>
+    <title>ic-service-optimize</title>
+    <polyline class="cls-1" points="15.26 2.67 15.26 15.26 2.67 15.26" />
+    <line class="cls-1" x1="1.5" y1="1.5" x2="15.26" y2="15.26" />
+    <polyline class="cls-1" points="2.67 33.11 15.26 33.11 15.26 45.7" />
+    <line class="cls-1" x1="1.5" y1="46.87" x2="15.26" y2="33.11" />
+    <polyline class="cls-1" points="34.79 2.67 34.79 15.26 47.38 15.26" />
+    <line class="cls-1" x1="48.55" y1="1.5" x2="34.79" y2="15.26" />
+    <polyline class="cls-1" points="47.38 33.11 34.79 33.11 34.79 45.7" />
+    <line class="cls-1" x1="48.55" y1="46.87" x2="34.79" y2="33.11" />
+    <rect fill="#ef5c63" x="17.83" y="16.8" width="14.4" height="14.4" />
+</svg>

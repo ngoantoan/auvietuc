@@ -1,0 +1,54 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.67 58.88">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-2,
+            .cls-3,
+            .cls-4,
+            .cls-5,
+            .cls-6 {
+                fill: none;
+                stroke: #f05b28;
+                stroke-width: 2.5px;
+            }
+
+            .cls-1 {
+                stroke-linecap: square;
+            }
+
+            .cls-1,
+            .cls-2,
+            .cls-4 {
+                stroke-miterlimit: 10;
+            }
+
+            .cls-3,
+            .cls-4,
+            .cls-5 {
+                stroke-linecap: round;
+            }
+
+            .cls-3,
+            .cls-6 {
+                stroke-linejoin: round;
+            }
+
+            .cls-5 {
+                stroke-linejoin: bevel;
+            }
+        </style>
+    </defs>
+    <title>ic-service-ux</title>
+    <polyline class="cls-1" points="65.21 57.63 1.25 57.63 1.25 1.87 66.97 1.87 66.97 20.18" />
+    <line class="cls-2" x1="0.81" y1="12.25" x2="67.4" y2="12.25" />
+    <polygon class="cls-3" points="67.25 40.06 58.08 32.99 76.96 9.25 86.14 16.32 67.25 40.06" />
+    <polygon class="cls-4" points="91.92 8.82 82.74 1.75 76.96 9.25 76.96 9.25 86.14 16.32 91.92 8.82 91.92 8.82" />
+    <line class="cls-3" x1="72.98" y1="14.26" x2="82.24" y2="21.38" />
+    <polygon class="cls-5" points="55.7 45.58 67.25 40.06 58.08 32.99 55.7 45.58 67.25 40.06 58.08 32.99 55.7 45.58" />
+    <rect fill="#f05b28" x="15.49" y="5.84" width="2.44" height="2.44" rx="1.22" ry="1.22" />
+    <rect fill="#f05b28" x="11.35" y="5.84" width="2.44" height="2.44" rx="1.22" ry="1.22" />
+    <rect fill="#f05b28" x="7.22" y="5.84" width="2.44" height="2.44" rx="1.22" ry="1.22" />
+    <line class="cls-6" x1="11.35" y1="24.15" x2="51.82" y2="24.15" />
+    <line class="cls-6" x1="11.35" y1="35.68" x2="46.55" y2="35.68" />
+    <line class="cls-6" x1="11.35" y1="47.2" x2="46.55" y2="47.2" />
+</svg>

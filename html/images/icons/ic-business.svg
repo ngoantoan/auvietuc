@@ -1,0 +1,44 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.21 220.21">
+    <defs>
+        <style>
+            .cls-1,
+            .cls-3,
+            .cls-4 {
+                fill: none;
+                stroke: #9729a7;
+                stroke-miterlimit: 10;
+            }
+
+            .cls-1,
+            .cls-3 {
+                stroke-width: 7.14px;
+            }
+
+            .cls-2 {
+                fill: #9729a7;
+            }
+
+            .cls-3 {
+                stroke-dasharray: 10.71 10.71;
+            }
+
+            .cls-4 {
+                stroke-width: 6.59px;
+            }
+        </style>
+    </defs>
+    <title>ic-business</title>
+    <path class="cls-1" d="M1650.59,913.54a69,69,0,1,1,69-69" transform="translate(-1549.98 -734.43)"
+    />
+    <path class="cls-2" d="M1650.59,795.76a48.78,48.78,0,1,0,35.29,82.43l-35.29-33.65Z" transform="translate(-1549.98 -734.43)"
+    />
+    <path class="cls-2" d="M1698.83,833.88a37.35,37.35,0,0,0-37.35-37.35v37.35Z" transform="translate(-1549.98 -734.43)"
+    />
+    <path class="cls-1" d="M1719.59,844.54q0,3-.26,6" transform="translate(-1549.98 -734.43)" />
+    <path class="cls-3" d="M1717.59,861.1a69.08,69.08,0,0,1-55.69,51.52" transform="translate(-1549.98 -734.43)" />
+    <path class="cls-1" d="M1656.58,913.28q-3,.26-6,.26" transform="translate(-1549.98 -734.43)" />
+    <path class="cls-4" d="M1707.22,765.4a97.32,97.32,0,0,1-56.63,176.45" transform="translate(-1549.98 -734.43)" />
+    <path class="cls-4" d="M1590.67,921.23a97.31,97.31,0,0,1,59.91-174" transform="translate(-1549.98 -734.43)" />
+    <circle class="cls-4" cx="91.11" cy="207.42" r="9.5" />
+    <circle class="cls-4" cx="108.83" cy="12.8" r="9.5" />
+</svg>
