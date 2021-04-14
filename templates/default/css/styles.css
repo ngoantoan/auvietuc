@@ -7099,6 +7099,16 @@ figure figcaption {
     src: url(../fonts/ElegantIconsd41d.eot?#iefix) format("embedded-opentype"), url(../fonts/ElegantIcons.woff) format("woff"), url(../fonts/ElegantIcons.ttf) format("truetype"), url(../fonts/ElegantIcons.svg#glyphicons_halflingsregular) format("svg")
 }
 
+@font-face {
+    font-family: 'iCiel-Crocante';
+    src:url(../fonts/iCiel-Crocante.ttf.woff) format('woff'),
+        url(../fonts/iCiel-Crocante.ttf.svg#iCiel-Crocante) format('svg'),
+        url(../fonts/iCiel-Crocante.ttf.eot),
+        url(../fonts/iCiel-Crocante.ttf.eot?#iefix) format('embedded-opentype'); 
+        font-weight: normal;
+        font-style: normal;
+}
+
 [data-icon]:before {
     font-family: ElegantIcons;
     content: attr(data-icon);

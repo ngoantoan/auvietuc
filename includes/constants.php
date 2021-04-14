@@ -17,6 +17,7 @@ class Constants {
 	const PAGE_BLOG = 'blog';
 	const PAGE_STUDY_ABROAD = 'study-abroad';
 	const PAGE_STUDENT = 'student';
+	const PAGE_SLIDER_AUDIO = 'slider-audio';
 	const PAGE_COMMUNICATE_CONFIDENTLY = 'communicate-confidently';
 	const PAGE_STUDY_SPACE = 'study-space';
 	const PAGE_EDUCATION_PROGRAM = 'education-program';

@@ -11,6 +11,21 @@ function SetBrowseImageFromServerField(fileUrl, data) {
     document.getElementById(data["selectActionData"]).value = fileUrl.replace(site_folder + "/upload/images/", '');
 };
 
+// full link upload image
+function BrowseImageFromServerFullLink(startupPath, functionData) {
+    var finder = new CKFinder();
+    finder.basePath = ckfinder_path;
+    finder.startupPath = startupPath;
+    finder.selectActionFunction = SetBrowseImageFromServerFieldFullLink;
+    finder.selectActionData = functionData;
+    finder.popup();
+};
+
+function SetBrowseImageFromServerFieldFullLink(fileUrl, data) {
+    document.getElementById(data["selectActionData"]).value = 'http://www.auvietuc.edu.vn' + fileUrl;
+};
+// full link upload image
+
 function BrowseFileFromServer(startupPath, functionData) {
     var finder = new CKFinder();
     finder.basePath = ckfinder_path;
@@ -23,6 +38,21 @@ function BrowseFileFromServer(startupPath, functionData) {
 function SetBrowseFileFromServerField(fileUrl, data) {
     document.getElementById(data["selectActionData"]).value = fileUrl.replace(site_folder + "/upload/files/", '');
 };
+
+// full link uplaod file
+function BrowseFileFromServerFullLink(startupPath, functionData) {
+    var finder = new CKFinder();
+    finder.basePath = ckfinder_path;
+    finder.startupPath = startupPath;
+    finder.selectActionFunction = SetBrowseFileFromServerFieldFullLink;
+    finder.selectActionData = functionData;
+    finder.popup();
+};
+
+function SetBrowseFileFromServerFieldFullLink(fileUrl, data) {
+    document.getElementById(data["selectActionData"]).value = 'http://www.auvietuc.edu.vn' + fileUrl;
+};
+// full link uplaod file
 
 function reloadList(gridId) {
     self.parent.jQuery(gridId).trigger("reloadGrid");

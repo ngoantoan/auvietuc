@@ -20,6 +20,8 @@
     <link href="https://fonts.googleapis.com/css?family=Sigmar+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
     <link href="{template_location}/css/all.min.css" rel="stylesheet">
     <link href="{template_location}/css/jquery.fancybox.min.css" rel="stylesheet">
     <link href="{template_location}/css/styles.css" rel="stylesheet">
@@ -224,6 +226,36 @@
                 }
             });
         });
+
+        // slider audio
+        $('.carousel').carousel({
+            interval: false,
+        });
+
+        function playAudio(code) {
+            $('.volume-down-' + code).css('display', 'none');
+            $('.volume-up-' + code).css('display', 'block');
+            document.getElementById(code).play();
+        }
+
+        function stopAudio(code) {
+            $('.volume-down-' + code).css('display', 'block');
+            $('.volume-up-' + code).css('display', 'none');
+            let audio = document.getElementById(code);
+            audio.pause();
+        }
+
+        function stopAllAudio() {
+            var sounds = document.getElementsByTagName('audio');
+            for(i=0; i<sounds.length; i++) sounds[i].pause();
+        }
+
+        $('.carousel-inner .item').each(function(i) {
+            if ( i === 0 ) {
+                $(this).addClass('active');
+            }
+        });
+        // end slider audio
     </script>
 </body>
 </html>

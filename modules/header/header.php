@@ -34,6 +34,20 @@ class header extends ModuleBase {
 		$tpl->assign("link_study_space", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_STUDY_SPACE, $language['id']),""));
 		$tpl->assign("link_communicate_confidently", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_COMMUNICATE_CONFIDENTLY, $language['id']),""));
 		$tpl->assign("link_student", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_STUDENT, $language['id']),""));
+
+		$first_slider_audio_parent_categories = $this->db->getRow("select id, code from slider_audio_parent_categories order by created_at asc");
+		if ($first_slider_audio_parent_categories) {
+			$id_parent = $first_slider_audio_parent_categories['id'];
+			$first_slider_audio_category = $this->db->getRow("select code from slider_audio_categories where parent_id = $id_parent order by created_at asc");
+			if ($first_slider_audio_category) {
+				$tpl->assign("link_slider_audio", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_SLIDER_AUDIO, $language['id']), $first_slider_audio_parent_categories['code'], $first_slider_audio_category['code']));
+			} else {
+				$tpl->assign("link_slider_audio", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_SLIDER_AUDIO, $language['id']), $first_slider_audio_parent_categories['code'], ""));
+			}
+		} else {
+			$tpl->assign("link_slider_audio", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_SLIDER_AUDIO, $language['id']), "", ""));
+		}
+
 		$tpl->assign("link_study_abroad", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_STUDY_ABROAD, $language['id']),""));
 		$tpl->assign("link_blog", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_BLOG, $language['id']),""));
 		$tpl->assign("link_job", $this->routing->GetLink(GetSpecialPageURL(Constants::PAGE_JOB, $language['id']),""));

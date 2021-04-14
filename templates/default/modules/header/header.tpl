@@ -46,6 +46,7 @@
             <ul class="sub">
                 <li><a href="{link_communicate_confidently}">HỌC QUA VIDEO</a></li>
                 <li><a href="{link_student}">VINH DANH HỌC VIÊN</a></li>
+                <li><a href="{link_slider_audio}">TỪ ĐIỂN HÌNH ẢNH</a></li>
             </ul>
         </li>
         <li class="hasChild {tu_van_du_hoc}">

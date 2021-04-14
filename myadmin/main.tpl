@@ -14,7 +14,8 @@
     <link href="{location}/css/normalize.css" rel="stylesheet" />
     <link href="{location}/css/sweetalert2.min.css" rel="stylesheet" />
     <link type="text/css" rel="stylesheet" href="{location}/css/admin.css"/>
-    <script>var ckfinder_path = '{ckfinder_path}',ckeditor_path = '{ckeditor_path}', site_folder = '{site_folder}';</script>
+    <script>var ckfinder_path = '{ckfinder_path}',ckeditor_path = '{ckeditor_path}', site_folder = '{site_folder}'; 
+            var server_url = '{server_url}';</script>
     <script src="{location}/js/jquery.min.js" type="text/javascript"></script>
     <script src="{location}/js/bootstrap.min.js"></script>
     <script src="{location}/js/moment.min.js" type="text/javascript"></script>
@@ -22,7 +23,8 @@
             type="text/javascript"></script>
      <script src="{location}/js/i18n/grid.locale-en.js" type="text/javascript"></script>
     <script src="{location}/js/jquery.jqGrid.min.js" type="text/javascript"></script>
-    <script src="//cdn.ckeditor.com/4.5.4/full/ckeditor.js"></script>
+    <!--script src="//cdn.ckeditor.com/4.5.4/full/ckeditor.js"></script-->
+    <script src="../editor/ckeditor.js"></script>
     <script src="../editor/filemanagement/ckfinder.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
@@ -130,6 +132,7 @@
                     <li><a href="?q=slider">Slider</a></li>
                     <li><a href="?q=communicate_confidently">Video</a></li>
                     <li><a href="?q=student">Ảnh góc học viên</a></li>
+                    <li><a href="?q=slider_audio">slider audio</a></li>
                 </ul>
             </li>
             <li class="dropdown">

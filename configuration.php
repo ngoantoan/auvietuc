@@ -10,7 +10,7 @@ $database_password = "";
 $database_port = 3306; // default: 3306
 $database_table_prefix = 'npt_'; // default: npt_
 // Server (host) information
-$server_url = "";
+$server_url = "http://localhost/auvietuc";
 // Site information
 $site_folder = "/auvietuc";
 $ckeditor_path = $server_url.$site_folder.'/editor/';
